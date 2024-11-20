@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 require_once "./vendor/autoload.php";
@@ -19,5 +20,5 @@ $cursos = $buscador->buscar("cursos-online-programacao/php");
 $i = 0;
 foreach ($cursos as $curso) {
   $i++;
-  echo exibeMensagem("#$i: $curso");
+  exibeMensagem("#$i: $curso");
 }

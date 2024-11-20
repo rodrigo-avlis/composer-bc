@@ -45,5 +45,9 @@
     "phpunit/phpunit": "^11",
     "squizlabs/php_codesniffer": "^3.11",
     "phan/phan": "^5.4"
-  }
+  },
+  "license": "GPL-3.0",
+  "bin": [
+    "buscar-cursos.php"
+  ]
 }
